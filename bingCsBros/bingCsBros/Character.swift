@@ -48,6 +48,7 @@ class Character: SKSpriteNode {
     }
     
     func moveForward(){
+        print("calling move forwqard")
         self.position.x += charSpeed
         self.isGoingRight = true
     }
