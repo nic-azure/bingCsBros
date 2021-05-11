@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CharacterImage" representedClassName="CharacterImage" syncable="YES">
+        <attribute name="img" optional="YES" attributeType="Transformable" customClassName="UIImage"/>
+    </entity>
     <entity name="Leaderboard" representedClassName="Leaderboard" syncable="YES">
         <attribute name="top5Scores" optional="YES" attributeType="String" customClassName="[NSNumber]"/>
         <attribute name="topNames" optional="YES" attributeType="String"/>
@@ -12,5 +15,6 @@
     <elements>
         <element name="Leaderboard" positionX="-63" positionY="9" width="128" height="73"/>
         <element name="Scoreboard" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="CharacterImage" positionX="-63" positionY="9" width="128" height="58"/>
     </elements>
 </model>
