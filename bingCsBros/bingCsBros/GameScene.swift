@@ -50,8 +50,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         else{
             //reset level and score
+<<<<<<< Updated upstream
             //ScoreboardDatabase.updateLevel(newLevel: 1, scoreboardToUpdate: scoreboard[0] as! Scoreboard)
             //ScoreboardDatabase.updateScore(newScore: 0, scoreboardToUpdate: scoreboard[0] as! Scoreboard)
+=======
+            ScoreboardDatabase.updateLevel(newLevel: 1, scoreboardToUpdate: scoreboard[0] as! Scoreboard)
+            ScoreboardDatabase.updateScore(newScore: 0, scoreboardToUpdate: scoreboard[0] as! Scoreboard)
+>>>>>>> Stashed changes
             score = scoreboard[0].value(forKey: "score") as! Int
             level = scoreboard[0].value(forKey: "level") as! Int
             lives = scoreboard[0].value(forKey: "lives") as! Int
@@ -130,7 +135,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     NSLog("Out of lives")
                     self.view?.isPaused = true
                     self.score = makeFinalScore()
+<<<<<<< Updated upstream
                     ScoreboardDatabase.updateScore(newScore: Int64(self.score), scoreboardToUpdate: scoreboard[0] as! Scoreboard)
+=======
+>>>>>>> Stashed changes
                     self.viewCtrl?.performSegue(withIdentifier: "gameToLose", sender: self)
                     mc.lives = 100
                     mainChar.position.x = 10000
@@ -149,7 +157,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     NSLog("Out of lives")
                     self.view?.isPaused = true
                     self.score = makeFinalScore()
+<<<<<<< Updated upstream
                     ScoreboardDatabase.updateScore(newScore: Int64(self.score), scoreboardToUpdate: scoreboard[0] as! Scoreboard)
+=======
+>>>>>>> Stashed changes
                     self.viewCtrl?.performSegue(withIdentifier: "gameToLose", sender: self)
                     mc.lives = 100
                     mainChar.position.x = 10000
@@ -364,7 +375,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             NSLog("Out of screen")
             self.view?.isPaused = true
             self.score = makeFinalScore()
+<<<<<<< Updated upstream
             ScoreboardDatabase.updateScore(newScore: Int64(self.score), scoreboardToUpdate: scoreboard[0] as! Scoreboard)
+=======
+>>>>>>> Stashed changes
             self.viewCtrl?.performSegue(withIdentifier: "gameToLose", sender: self)
             mainChar.position.x = 10000
             //timeInterval = 0
@@ -815,7 +829,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         enemy8.physicsBody?.contactTestBitMask = collisionTypes.player.rawValue
         enemy8.physicsBody?.collisionBitMask = collisionTypes.player.rawValue
         
+<<<<<<< Updated upstream
         let obstacle4 = Obstacles(x: Int(self.frame.maxY) - 300, y: (Int(self.frame.minX) / 4) - 30, img: "desk", typeOfObstacles: "idk?", id: 4)
+=======
+        let obstacle4 = Obstacles(x: Int(self.frame.maxY) - 300, y: (Int(self.frame.minX) / 4) - 30, img: "banana", typeOfObstacles: "idk?", id: 4)
+>>>>>>> Stashed changes
         obstacle4.physicsBody?.categoryBitMask = collisionTypes.obstacle.rawValue
         
         
@@ -837,7 +855,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             enemy1.zPosition = 1
             addChild(enemy1)
             
+<<<<<<< Updated upstream
            // addChild(endFlag)
+=======
+            addChild(endFlag)
+>>>>>>> Stashed changes
             
             //delete from
             
@@ -1183,7 +1205,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             enemy1.zPosition = 1
             addChild(enemy1)
             
+<<<<<<< Updated upstream
             //addChild(endFlag)
+=======
+            addChild(endFlag)
+>>>>>>> Stashed changes
         
         }
         if(Int(timeInterval) == 7 && intervalsUsed.contains(Int(timeInterval)) == false){

@@ -2,6 +2,7 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+<<<<<<< Updated upstream
 ## User settings
 xcuserdata/
 
@@ -88,6 +89,42 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+<<<<<<< Updated upstream
 refined-github/
 odat/
 bingCsBros/bingCsBros/Assets.xcassets/aPlus.imageset/scrcpy/
+=======
+=======
+refined-github/
+bingCsBros/bingCsBros/Assets.xcassets/aPlus.imageset/scrcpy/
+>>>>>>> Stashed changes
+bingCsBros/bingCsBros.xcodeproj/project.pbxproj
+bingCsBros/bingCsBros/Assets.xcassets/.DS_Store
+bingCsBros/bingCsBros/Assets.xcassets/banana.png
+bingCsBros/bingCsBros/Assets.xcassets/baxterHome.jpeg
+bingCsBros/bingCsBros/Assets.xcassets/chair.png
+bingCsBros/bingCsBros/Assets.xcassets/clapping.jpeg
+bingCsBros/bingCsBros/Assets.xcassets/coffee.imageset/Contents - kopie.json
+bingCsBros/bingCsBros/Assets.xcassets/congrats.png
+bingCsBros/bingCsBros/Assets.xcassets/congratsGreen.png
+bingCsBros/bingCsBros/Assets.xcassets/Contents.json
+bingCsBros/bingCsBros/Assets.xcassets/desk.jpeg
+bingCsBros/bingCsBros/Assets.xcassets/g7.jpeg
+bingCsBros/bingCsBros/Assets.xcassets/gameOverLogo.png
+bingCsBros/bingCsBros/Assets.xcassets/harveyDiploma.png
+bingCsBros/bingCsBros/Assets.xcassets/harveyGraduation.jpeg
+bingCsBros/bingCsBros/Assets.xcassets/instructions.png
+bingCsBros/bingCsBros/Assets.xcassets/leaderboard.png
+bingCsBros/bingCsBros/Assets.xcassets/logo.png
+bingCsBros/bingCsBros/Assets.xcassets/madden.jpeg
+bingCsBros/bingCsBros/Assets.xcassets/office.png
+bingCsBros/bingCsBros/Assets.xcassets/PassedLevelLogo.png
+bingCsBros/bingCsBros/Assets.xcassets/stackOverflowLogo.png
+bingCsBros/bingCsBros/Assets.xcassets/steven.jpeg
+bingCsBros/bingCsBros/Base.lproj/Main.storyboard
+bingCsBros/bingCsBros/CompletedGameViewController.swift
+bingCsBros/bingCsBros/GameOverViewController.swift
+bingCsBros/bingCsBros/GameScene.swift
+bingCsBros/bingCsBros/HomeViewController.swift
+odat/
+>>>>>>> Stashed changes

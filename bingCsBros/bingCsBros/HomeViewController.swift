@@ -19,8 +19,12 @@ class HomeViewController: UIViewController {
         //if a character image exists then delete it
         //make a new one
        // scoreDB = scoreboard?[0].value(forKey: "score") as! Int
+<<<<<<< Updated upstream
         self.navigationController?.isNavigationBarHidden = true
 
+=======
+        
+>>>>>>> Stashed changes
     }
     
 

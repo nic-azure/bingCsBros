@@ -15,7 +15,10 @@
 		34030567262DC7B800BFBA5C /* jazzmans.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34030564262DC7B800BFBA5C /* jazzmans.jpeg */; };
 		342BA80A2630674800F12E0F /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BA8092630674800F12E0F /* CharacterViewController.swift */; };
 		342BA80F263072BF00F12E0F /* stickFigure.png in Resources */ = {isa = PBXBuildFile; fileRef = 342BA80E263072BF00F12E0F /* stickFigure.png */; };
+<<<<<<< Updated upstream
 		34499AFD264C22FF0013D67B /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34499AFC264C22FF0013D67B /* InstructionsViewController.swift */; };
+=======
+>>>>>>> Stashed changes
 		344AE1A62624927D00EC6BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AE1A52624927D00EC6BAC /* AppDelegate.swift */; };
 		344AE1A82624927D00EC6BAC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 344AE1A72624927D00EC6BAC /* GameScene.sks */; };
 		344AE1AA2624927D00EC6BAC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 344AE1A92624927D00EC6BAC /* Actions.sks */; };
@@ -73,7 +76,10 @@
 		34030564262DC7B800BFBA5C /* jazzmans.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jazzmans.jpeg; sourceTree = "<group>"; };
 		342BA8092630674800F12E0F /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		342BA80E263072BF00F12E0F /* stickFigure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stickFigure.png; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		34499AFC264C22FF0013D67B /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> Stashed changes
 		344AE1A22624927D00EC6BAC /* bingCsBros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bingCsBros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		344AE1A52624927D00EC6BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		344AE1A72624927D00EC6BAC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -169,7 +175,10 @@
 				344AE1A72624927D00EC6BAC /* GameScene.sks */,
 				4419901526444F7B00C9D26C /* CompletedGameViewController.swift */,
 				44FD4587264B3D4300E0827B /* HomeViewController.swift */,
+<<<<<<< Updated upstream
 				34499AFC264C22FF0013D67B /* InstructionsViewController.swift */,
+=======
+>>>>>>> Stashed changes
 				344AE1A92624927D00EC6BAC /* Actions.sks */,
 				344AE1AB2624927D00EC6BAC /* GameScene.swift */,
 				344AE1AD2624927D00EC6BAC /* GameViewController.swift */,
@@ -377,7 +386,10 @@
 				34C7CBB4263C50AE009F571C /* WinViewController.swift in Sources */,
 				342BA80A2630674800F12E0F /* CharacterViewController.swift in Sources */,
 				2C494D62262F4AF7008EC632 /* PowerItem.swift in Sources */,
+<<<<<<< Updated upstream
 				34499AFD264C22FF0013D67B /* InstructionsViewController.swift in Sources */,
+=======
+>>>>>>> Stashed changes
 				2C494D6C262F51B4008EC632 /* PlatformBox.swift in Sources */,
 				347CB750262736D200E9C464 /* Character.swift in Sources */,
 				7907592F2642E5E100766DA2 /* GameOverViewController.swift in Sources */,
@@ -549,7 +561,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NA2Q6XHTH2;
+				DEVELOPMENT_TEAM = JWRYL7TNCU;
 				INFOPLIST_FILE = bingCsBros/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -569,7 +581,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NA2Q6XHTH2;
+				DEVELOPMENT_TEAM = JWRYL7TNCU;
 				INFOPLIST_FILE = bingCsBros/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (

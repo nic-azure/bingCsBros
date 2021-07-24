@@ -12,6 +12,7 @@ class GameOverViewController: UIViewController {
 
     @IBOutlet var finalScoreLabel: UILabel!
     var scoreboard: [NSManagedObject]?
+<<<<<<< Updated upstream
     var leaderboard: [NSManagedObject]?
     var scoreDB: Int?
     var scoresString: String?
@@ -20,13 +21,19 @@ class GameOverViewController: UIViewController {
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var submitButton: UIButton!
     @IBOutlet var madeToLeaderboard: UILabel!
+=======
+    var scoreDB: Int?
+>>>>>>> Stashed changes
     
     override func viewDidLoad() {
         super.viewDidLoad()
         UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
         //TODO: set finalScoreLabel to contain actual score
         scoreboard = ScoreboardDatabase.fetchScoreboard()
+<<<<<<< Updated upstream
         leaderboard = LeaderboardDatabase.fetchLeaderboard()
+=======
+>>>>>>> Stashed changes
         if(scoreboard!.count == 0 ){
             print("SAVING SCOREBOARD 1ST TIME")
             scoreboard = ScoreboardDatabase.saveFirstScoreboard()
@@ -35,6 +42,7 @@ class GameOverViewController: UIViewController {
             scoreDB = scoreboard?[0].value(forKey: "score") as! Int
         }
         finalScoreLabel.text = "Final Score: " + String(scoreDB!)
+<<<<<<< Updated upstream
         
         if(leaderboard!.count == 0 ){
             print("SAVING LEADERBOARD 1ST TIME")
@@ -83,6 +91,15 @@ class GameOverViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+=======
+    
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func clickPlayAgainButton(sender: UIButton){
+            //TODO: set score back to 0
+        }
+>>>>>>> Stashed changes
     
     /*
     // MARK: - Navigation
@@ -100,6 +117,7 @@ class GameOverViewController: UIViewController {
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
     }
 
+<<<<<<< Updated upstream
     
     
     
@@ -162,4 +180,6 @@ class GameOverViewController: UIViewController {
        
         
     }
+=======
+>>>>>>> Stashed changes
 }
