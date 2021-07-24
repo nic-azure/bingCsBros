@@ -88,6 +88,14 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+<<<<<<< ours
 refined-github/
 odat/
 bingCsBros/bingCsBros/Assets.xcassets/aPlus.imageset/scrcpy/
+=======
+bingCsBros/bingCsBros/Assets.xcassets/aPlus.imageset/scrcpy/
+odat/
+refined-github/
+bingCsBros/bingCsBros/Assets.xcassets/coffee.imageset/Contents - kopie.json
+bingCsBros/bingCsBros/Assets.xcassets/jazzmans.jpeg
+>>>>>>> theirs
